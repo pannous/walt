@@ -248,7 +248,7 @@ export const opcodeFromOperator = ({
   type: string | null,
   value: string,
 }): RawOpcodeType => {
-  // 100% code coverage is a harsh mistress
+  // 100% code coverage is a harsh mistress ;)
   const mapping = {
     '+': def[String(type) + 'Add'],
     '-': def[String(type) + 'Sub'],
